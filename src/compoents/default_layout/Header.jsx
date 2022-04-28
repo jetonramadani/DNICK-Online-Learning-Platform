@@ -15,7 +15,7 @@ const Header = () => {
                 <Link to="/">
                     <Navbar.Brand >
                         {/* <Image src={logo} className="w-25" /> */}
-                        LOGO
+                        TECHSKILLS <sub style={{ fontSize: '.6rem' }}>IMPROVE YOURSLEF</sub>
                     </Navbar.Brand>
                 </Link>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />

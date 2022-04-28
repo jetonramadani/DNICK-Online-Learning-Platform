@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         // <Container>
         <footer className="bg-dark text-light text-center" >
-            <p>©2022 APP NAME</p>
+            <p>©2022 TECHSKILLS Jeton Ramadani</p>
         </footer>
         // </Container>
     );
