@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import { Image, Nav } from 'react-bootstrap'
+import { Button, Image, Nav } from 'react-bootstrap'
+import { Link } from 'react-router-dom';
 import schema from "../../assets/schema.svg";
 
 const trans = {
@@ -42,6 +43,7 @@ const TopicView = () => {
                 <Image src={schema} className="img-thumbnail" />
                 <p style={{ background: "lightblue" }}>{trans[active].info}</p>
             </div>
+            <Link to="/question"><Button>Practice</Button></Link>
         </>
     )
 }

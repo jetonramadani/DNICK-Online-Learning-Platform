@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
 import Project from "./pages/Project";
 import Projects from "./pages/Projects";
+import QuestionPage from "./pages/QuestionPage";
 import Start from "./pages/Start";
 import Topic from "./pages/Topic";
 import Track from "./pages/Track";
@@ -19,6 +20,7 @@ function App() {
         <Route path="/tracks" element={<Tracks />} />
         <Route path="/project" element={<Project />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/question" element={<QuestionPage />} />
         <Route path="/*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>

@@ -20,7 +20,7 @@ const TrackList = () => {
             completed: true,
         },
         {
-            id: 1,
+            id: 4,
             title: "Intro to Java",
             completed: false,
         }
@@ -30,7 +30,7 @@ const TrackList = () => {
             {data.map(topic =>
             (<div key={topic.id} className={`${topic.completed ? 'bg-success' : 'bg-warning'} p-2 rounded-pill m-2`}>
                 <span className='me-5'>{topic.title}</span>
-                <Button variant='primary'><Link to={`/topic/${topic.id}`} className="text-light">Visit</Link></Button>
+                <Link to={`/topic/${topic.id}`} className="text-light"><Button variant='primary'>Visit</Button></Link>
             </div>)
             )}
         </div >

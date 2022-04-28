@@ -3,6 +3,7 @@ import DefaultLayout from '../compoents/default_layout/DefaultLayout'
 import home from "../assets/home.jpeg";
 import { Button, Col, Image, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import Question from '../compoents/Tracks/Question';
 const Home = () => {
     const [logedIn, setLogedIn] = useState(false);
     const val = localStorage.getItem("logged_in");
@@ -18,11 +19,10 @@ const Home = () => {
                 <Col xs={12} lg={4} className="d-flex flex-column justify-content-center gap-4 ">
                     {logedIn ?
                         <>
-                            <Link to="/tracks"><Button className='w-100'>Visit tracks</Button> </Link>
-                            <Link to="/projects"><Button className='w-100'>Visit projects</Button> </Link>
+                            <Link to="/tracks"><Button className='w-100' style={{ background: "#0B0C2A" }}>Visit tracks</Button> </Link>
+                            <Link to="/projects"><Button className='w-100' style={{ background: "#0B0C2A" }}>Visit projects</Button> </Link>
                         </>
-                        : <Link to="/start"><Button className='w-100'>Get Started</Button> </Link>}
-
+                        : <Link to="/start"><Button className='w-100' style={{ background: "#0B0C2A" }} >Get Started</Button> </Link>}
                 </Col>
             </Row>
         </DefaultLayout>
