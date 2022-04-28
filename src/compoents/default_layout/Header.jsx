@@ -27,6 +27,9 @@ const Header = () => {
                         <Link to="/tracks" className="nav-link">
                             Tracks
                         </Link>
+                        <Link to="/projects" className="nav-link">
+                            Projects
+                        </Link>
                         {
                             !logedIn ?
                                 <Link to="/start" className="nav-link">

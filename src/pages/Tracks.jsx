@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
 import DefaultLayout from '../compoents/default_layout/DefaultLayout'
-import TrackCard from '../compoents/Tracks.jsx/TrackCard'
+import TrackCard from '../compoents/Tracks/TrackCard'
 
 const Tracks = () => {
     const tracks = [

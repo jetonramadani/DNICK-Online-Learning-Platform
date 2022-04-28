@@ -1,8 +1,8 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
 import DefaultLayout from '../compoents/default_layout/DefaultLayout'
-import TopicView from '../compoents/Tracks.jsx/TopicView'
-import TrackList from '../compoents/Tracks.jsx/TrackList'
+import TopicView from '../compoents/Tracks/TopicView'
+import TrackList from '../compoents/Tracks/TrackList'
 
 const Topic = () => {
     return (
