@@ -1,7 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom';
 import DefaultLayout from '../compoents/default_layout/DefaultLayout'
-import TrackList from '../compoents/Tracks.jsx/TrackList'
+import TrackList from '../compoents/Tracks/TrackList'
 
 const Track = () => {
     const { title } = useParams();
