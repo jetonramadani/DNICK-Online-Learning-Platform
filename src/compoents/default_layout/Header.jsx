@@ -5,7 +5,7 @@ import { Link, useNavigate } from "react-router-dom";
 const Header = () => {
     const [logedIn, setLogedIn] = useState(false);
     const val = localStorage.getItem("logged_in");
-    if (val !== undefined && val !== logedIn.toString()) {
+    if (val && val !== logedIn.toString()) {
         setLogedIn(val === "true");
     }
     const navigate = useNavigate();
