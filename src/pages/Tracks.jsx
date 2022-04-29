@@ -13,8 +13,8 @@ const Tracks = () => {
         },
         {
             title: "Python",
-            numOfTopics: 15,
-            completed: 5,
+            numOfTopics: 20,
+            completed: 19,
             description: "This track will guide you on your path of mastering Python, one of the much-in-demand languages in today's environment. Known for its straightforward syntax, Python is easy to learn and use, which accounts for its popularity and makes its community grow every day. "
         },
         {
